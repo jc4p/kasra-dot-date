@@ -9,4 +9,4 @@ def index():
 app.secret_key = 'SECRETS_SECRETS_ARE_NO_FUN'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
