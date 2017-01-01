@@ -3,73 +3,58 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>kasra.date</title>
+  <title>Hi 👋🏽 I'm Kasra. I'm looking for a date.</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
   <nav class="pink lighten-2" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">kasra.date</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">T E X T M E</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">T E X T M E</a></li>
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
   <div class="container">
     <div class="section no-pad-bot">
       <div class="row">
-        <h3>Hi, I'm Kasra.</h3>
-        <p>This may seem strange, but I assure you I'm a normal guy. I suck at dating, so I figured why not try to crowd source it. If you're interested, please send me a message!</p>
-        <p>Here's some more marketing text to try to get you to join me in on a date. We can pelt around the house and up and down stairs chasing phantoms scratch the box favor packaging over toy. Lounge in doorway. Claws in your leg eat the fat cats food has closed eyes but still sees you lick yarn hanging out of own butt vommit food and eat it again. Loves cheeseburgers instantly break out into full speed gallop across the house for no reason and hide from vacuum cleaner give attitude, so put butt in owner's face.</p>
+        <h3>👋🏽 I'm Kasra and I'm looking for a date.</h3>
+        <p>Well, not just a date. I'm pretty good at getting dates. Turning those into something serious though, that's the goal.</p>
+        <p>I live my life pretty out in the open. Here are some links to demonstrate who I really am. Let me know if any of it interests you. Cool. thanks, bye.</p>
       </div>
     </div>
     <div class="section">
-      <div class="row">
-        <div class="col s12 m4">
+      <div class="row last-section-row">
+        <div class="col s12 m6">
           <div class="icon-block">
-            <h5 class="center">Projects</h5>
+            <h5 class="center">Writing</h5>
 
-            <p class="light">I'm always working on some thing. Some examples:</p>
-            <ul class="collection">
-              <li class="collection-item"><a href="https://github.com/jc4p/KeepItCool" target="_blank">An anti-drunk texting app</a></li>
-              <li class="collection-item"><a href="https://www.instagram.com/p/5SkkuYR-3p" target="_blank">LED light boards!</a></li>
-            </ul>
+            {% include 'section/writing.md' %}
           </div>
         </div>
 
-        <div class="col s12 m4">
+        <div class="col s12 m6">
           <div class="icon-block">
-            <h5 class="center">Obsessions</h5>
+            <h5 class="center">Social</h5>
 
-            <p class="light">I obsess over strange things. Recently this has meant ice cream and related treats (milkshakes, ice cream sandwiches, ice cream cakes).</p>
-
-            <p class="light">Last summer this meant trying to get my lights to dance with music. Both obsessions have been semi-successful.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h5 class="center">Some more things</h5>
-
-            <p class="light">yeah i don't know, i'll think of something</p>
+            {% include 'section/social.md' %}
           </div>
         </div>
       </div>
     </div>
     <div class="section">
       <div class="row">
-        <h4>Message me</h4>
-        <p>I'm a very lonely person, and I love talking to people.</p>
-        <p>Fill out the form below to send me a text, or feel free to text directly: <strong>(321) IM-KASRA</strong> -- That's not a joke, that's a real number.</p>
+        <h4>Text me</h4>
+        <p>Fill out the form below to send me a text, or feel free to grab your phone and text me directly: <strong><a href="sms:3214652772">(321) IM-KASRA</a></strong>.</p>
+        <p>That's not a joke, that's a real number. I'll message you back soon.</p>
         <form class="col s12">
         <div class="row">
           <div class="input-field col s6">
@@ -102,25 +87,15 @@
       <div class="row footer-row">
         <div class="col l6 s12">
           <h5 class="white-text">What is this?</h5>
-          <p class="grey-text text-lighten-4">My name is Kasra and this is a serious attempt at getting myself a date.</p>
+          <p class="grey-text text-lighten-4">My name is Kasra and I'm looking for a date.</p>
 
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Reading</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
+        <div class="col l3 s12 offset-l3 footer-connect-container">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="https://twitter.com/jc4p" target="_blank">Twitter</a></li>
+            <li><a class="white-text" href="https://www.instagram.com/krahjerdi/" target="_blank">Instagram</a></li>
+            <li><a class="white-text" href="sms:3214652772">(321) IM-KASRA</a></li>
           </ul>
         </div>
       </div>

@@ -1,3 +1,7 @@
-.footer-row {
+.footer-row, .last-section-row {
     margin-bottom: 0;
+}
+
+.footer-connect-container {
+    text-align: right;
 }
